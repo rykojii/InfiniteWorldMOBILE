@@ -10,7 +10,7 @@ function isMobile() {
     }
 }
 if(!isMobile()) {
-    alert("WARNING: This script was created for mobile, and may break functionality in non-mobile browsers!");
+    alert("AVISO: Este modo foi criado para dispositivos mobale e pode interromper a funcionalidade em navegadores não mobales!");
 }
 // TODO: consolidate all of these into a single object?
 window.crouchLock = false; // Used for crouch mobile control
